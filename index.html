@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeatFlow</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-<div>
-    <h1>Best Songs Tamil</h1>
-</div>
+  <nav class="navbar">
+  <h1 class="logo">BeatFlow</h1>
+
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="liked.html">Liked Songs</a>
+  </div>
+</nav>
+<div class="arrange">
 <div class="player">
   <h2 id="title">Episode 1</h2>
   <audio id="audio"></audio>
@@ -21,6 +30,10 @@
   </div>
 </div>
 <div class="episodes" id="episodes"></div>
+</div>
+<center>
+  <button class="neo-btn" onclick="window.location.href='index2.html'"><b>Next</b></button>
+</center>
 <script src="script.js"></script>
 </body>
 </html>
