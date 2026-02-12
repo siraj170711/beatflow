@@ -7,7 +7,7 @@ let likedSongs = JSON.parse(localStorage.getItem("likedSongs")) || [];
 
 const episodes = [
   { title: "Golden Sparrow", desc: "Sublahshini", src: "songs/song26.mp3" },
-  { title: "Tamil,selvi", desc: "Anirudh,Remo", src: "songs/song27.mp3" },
+  { title: "Tamil selvi", desc: "Anirudh,Remo", src: "songs/song27.mp3" },
   { title: "Innisai paadi Varum", desc: "Unnikrishnann,Thulladha Manamum Thullum", src: "songs/song28.mp3" },
   { title: "Usuma laresay", desc: "Vijay Antony,Uthamaputhiran", src: "songs/song29.mp3" },
   { title: "Mellinamea", desc: "Harish Raghavendra,Shahjahan", src: "songs/song30.mp3" },
